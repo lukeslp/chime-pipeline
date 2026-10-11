@@ -1,0 +1,111 @@
+{
+  "author": "Luke Steuber",
+  "batcher_epochs": 3.0,
+  "best_human_macro_dev_ppl": 60.542518613471984,
+  "completed": true,
+  "configuration": {
+    "arch": "cifg-lstmp-tied",
+    "backend": "torch-cuda-float32",
+    "batch_size": 256,
+    "batches_per_epoch": 34065,
+    "cache_fingerprint": "44e10207b0fa-corpus-v3-4cd3a8",
+    "clip": 1.0,
+    "corpus": "corpus-v3",
+    "dev_lines": 20000,
+    "embed_dim": 96,
+    "epoch_lines": 8720859,
+    "epoch_tokens": 195641031,
+    "hidden": 670,
+    "human_dev_lines": {
+      "nus": 463,
+      "oasst2": 261,
+      "taskmaster": 567,
+      "taskmaster3": 1587
+    },
+    "human_epoch_share": 0.12868,
+    "human_lines": 259986,
+    "human_oversample": 8,
+    "human_sources": [
+      "nus",
+      "taskmaster",
+      "oasst2",
+      "taskmaster3"
+    ],
+    "input_manifest_sha256": "affcab9a39ee426742476d74684f864835f52beea4df13b71b37e654220d9a2b",
+    "lr": 0.002,
+    "max_len": 64,
+    "max_minutes": null,
+    "max_steps": 102195,
+    "min_lr_ratio": 0.1,
+    "oversample": {
+      "nus": 8,
+      "oasst2": 8,
+      "taskmaster": 8,
+      "taskmaster3": 1
+    },
+    "params": 2025114,
+    "schedule_total_steps": 102195,
+    "seed": 20260925,
+    "select_on": "human-macro",
+    "source_lines": {
+      "nus": 45697,
+      "oasst2": 20935,
+      "soda": 7598662,
+      "taskmaster": 56541,
+      "taskmaster3": 136813
+    },
+    "temporary_vocab": false,
+    "tokenizer": "model/tokenize.py@420ff9fab94f",
+    "train_lines": null,
+    "vocab_path": "data/vocab.txt",
+    "vocab_size": 16384,
+    "warmup": 200,
+    "weight_decay": 0.01
+  },
+  "environment": {
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "basis": "historical launcher and completed training-log hardware record; not a recreated environment",
+    "deterministic_algorithms": true,
+    "image": "pytorch/pytorch:2.8.0-cuda12.6-cudnn9-runtime@sha256:dab81780fd94483b67b4b5679cc0024939b08e48540d39476d284cb29002ed69",
+    "original_backend_record": "mlx-0.31.2",
+    "recorded_cuda": "12.6",
+    "recorded_gpu": "NVIDIA A100-SXM4-80GB",
+    "recorded_torch": "2.8.0+cu126",
+    "tf32": false,
+    "torch_num_threads": 4
+  },
+  "evaluation": {
+    "every_steps": 1000,
+    "final_step_evaluation": true,
+    "selection": "mean source NLL exponentiated; human-macro development only"
+  },
+  "optimizer": {
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "clip_norm_epsilon": 1e-06,
+    "epsilon": 1e-08,
+    "moments_bias_correction": false,
+    "weight_decay": 0.01
+  },
+  "recorded_checkpoint_sha256": {
+    "best.safetensors": "5f5b684b91be428f567e6e2bf27226fcfec4f95ab07c57f61347b14ba5ff00d7",
+    "latest.safetensors": "34a81f05cbfac47214178ec41350695833011f3aedd9ba370fecbb7a378c6986",
+    "training-state.pt": "fd688b3a6700947ae2c0bf34ccf1d33b06c2aa871c8af48e977bc5d160ee0dbf"
+  },
+  "reproduction_limit": "missing exact data/initial/parity bytes; sanitized manifest differs; no bit-identical trajectory claim",
+  "run": "cifg-x8-cuda-full-20261006-verified",
+  "sampler": {
+    "drop_incomplete_batch": true,
+    "length_sort": "stable",
+    "numpy_rng": "default_rng",
+    "pool_batches": 64,
+    "round_to": 64,
+    "seed": 20260925
+  },
+  "selected_step": 98000,
+  "steps": 102195,
+  "target_tokens": 586885109,
+  "training_or_gpu_checks_run_by_preparation": false
+}

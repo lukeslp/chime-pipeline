@@ -1,0 +1,58 @@
+{
+  "basis": "original frozen manifest; bytes not read",
+  "files": {
+    "data/config.json": {
+      "bytes": 1255,
+      "sha256": "cfef2f9e78582b347f9ec91ef50f1090efa50a67b09cd07afe3b6000c520d346"
+    },
+    "data/corpus-manifest.json": {
+      "bytes": 20472,
+      "sha256": "e5948a71e96b4a1e53137f5bf07b8f128364b31b6880af873ba3384aaeda7ff3"
+    },
+    "data/dev.offsets.npy": {
+      "bytes": 638616,
+      "sha256": "8be443fed0f970c18bb6450aad9b06d6a2f71a0c9514f777368e905467a5996f"
+    },
+    "data/dev.sources.json": {
+      "bytes": 54,
+      "sha256": "8e7f51304e6b602ef6a5b0557515ce5ba0af2e5e8cd2f451d400a965340d0100"
+    },
+    "data/dev.sources.npy": {
+      "bytes": 79938,
+      "sha256": "f20e4f37282cd0b184e4bddb922c08e43d256b973caaa6205197defe4a7f8151"
+    },
+    "data/dev.tokens.npy": {
+      "bytes": 3588642,
+      "sha256": "537ab6602e69df6508f6346fdc4660cc565a73519188fc3ae226a7046c8427f7"
+    },
+    "data/initial.safetensors": {
+      "bytes": 8100832,
+      "sha256": "186a17688e59836ab0755a7ee67b71c18fe0a41236b83f31dcdc654381afea87"
+    },
+    "data/parity.npz": {
+      "bytes": 17260044,
+      "sha256": "d1ff46f884e639b6aa4885a6fd06e13d31f6493ce03392d093180a0212f9767a"
+    },
+    "data/train.offsets.npy": {
+      "bytes": 62869320,
+      "sha256": "19939110e1d0cce6337b625d815df1e537e95df5d5e5a29bdde3ac11fafc7431"
+    },
+    "data/train.sources.json": {
+      "bytes": 54,
+      "sha256": "8e7f51304e6b602ef6a5b0557515ce5ba0af2e5e8cd2f451d400a965340d0100"
+    },
+    "data/train.sources.npy": {
+      "bytes": 7858776,
+      "sha256": "ff60e32a5fe8c95ade347a1405e1d30be1afad9bce8981a29065bc993ef84ad9"
+    },
+    "data/train.tokens.npy": {
+      "bytes": 354359798,
+      "sha256": "6bd48b5b6ce246585a03c90eb5b63dfe4c55c0e30e14340581dc6d536ab28ccb"
+    },
+    "data/vocab.txt": {
+      "bytes": 121723,
+      "sha256": "f947a7a9b8c490dfa6577e54eca7ae9bd427e39a1bfe087a3667f75398a262a1"
+    }
+  },
+  "included": false
+}

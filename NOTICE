@@ -1,0 +1,25 @@
+Chime pipeline
+Copyright 2026 Luke Steuber
+
+Source code in this repository (model/, cuda/) is licensed under the Apache
+License, Version 2.0; see LICENSE.
+
+The following files are NOT covered by that licence and keep their own terms:
+
+- app/src/main/assets/words_en.txt and app/src/main/assets/words_en_profanity.txt
+  are derived from hermitdave/FrequencyWords (OpenSubtitles 2018),
+  https://github.com/hermitdave/FrequencyWords, CC BY-SA 4.0
+  (https://creativecommons.org/licenses/by-sa/4.0/). They are the vocabulary
+  cover and the prior's exclusion list, and their frequency order shapes the
+  published vocabulary, which is why Chime's weights and vocabulary are
+  published under CC BY-SA 4.0 as well.
+- app/src/main/assets/words_en_modern.txt and app/src/main/assets/emoji_en.txt
+  were written for LocalType by Luke Steuber and are released here under
+  CC BY-SA 4.0 alongside the lists they extend.
+- app/src/main/assets/licenses/ holds the upstream licence and notice texts.
+
+No corpus text, typing log, checkpoint or model weight is distributed here. The
+training corpus is rebuilt from pinned upstream datasets whose terms are
+recorded in model/licenses.md (NUS SMS Corpus, Taskmaster-1 and Taskmaster-3:
+CC BY 4.0; OpenAssistant Conversations 2: Apache-2.0; SODA: CC BY 4.0). None of
+their authors endorse this work.

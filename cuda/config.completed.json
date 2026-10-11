@@ -1,0 +1,59 @@
+{
+  "arch": "cifg-lstmp-tied",
+  "backend": "torch-cuda-float32",
+  "batch_size": 256,
+  "batches_per_epoch": 34065,
+  "cache_fingerprint": "44e10207b0fa-corpus-v3-4cd3a8",
+  "clip": 1.0,
+  "corpus": "corpus-v3",
+  "dev_lines": 20000,
+  "embed_dim": 96,
+  "epoch_lines": 8720859,
+  "epoch_tokens": 195641031,
+  "hidden": 670,
+  "human_dev_lines": {
+    "nus": 463,
+    "oasst2": 261,
+    "taskmaster": 567,
+    "taskmaster3": 1587
+  },
+  "human_epoch_share": 0.12868,
+  "human_lines": 259986,
+  "human_oversample": 8,
+  "human_sources": [
+    "nus",
+    "taskmaster",
+    "oasst2",
+    "taskmaster3"
+  ],
+  "input_manifest_sha256": "affcab9a39ee426742476d74684f864835f52beea4df13b71b37e654220d9a2b",
+  "lr": 0.002,
+  "max_len": 64,
+  "max_minutes": null,
+  "max_steps": 102195,
+  "min_lr_ratio": 0.1,
+  "oversample": {
+    "nus": 8,
+    "oasst2": 8,
+    "taskmaster": 8,
+    "taskmaster3": 1
+  },
+  "params": 2025114,
+  "schedule_total_steps": 102195,
+  "seed": 20260925,
+  "select_on": "human-macro",
+  "source_lines": {
+    "nus": 45697,
+    "oasst2": 20935,
+    "soda": 7598662,
+    "taskmaster": 56541,
+    "taskmaster3": 136813
+  },
+  "temporary_vocab": false,
+  "tokenizer": "model/tokenize.py@420ff9fab94f",
+  "train_lines": null,
+  "vocab_path": "data/vocab.txt",
+  "vocab_size": 16384,
+  "warmup": 200,
+  "weight_decay": 0.01
+}

@@ -1,0 +1,13 @@
+# Provenance manifests hold SHA-256 digests of source files and omitted inputs,
+# which the generic-api-key rule mistakes for secrets. They are file hashes.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "SHA-256 file digests in provenance manifests"
+paths = [
+  '''provenance-mlx-package-manifest\.json''',
+  '''cuda/provenance-package-manifest\.json''',
+  '''cuda/source_provenance\.json''',
+  '''cuda/required_inputs\.json''',
+]

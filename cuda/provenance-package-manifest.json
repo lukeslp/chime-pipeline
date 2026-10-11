@@ -1,0 +1,38 @@
+{
+  "author": "Luke Steuber",
+  "files": {
+    "LICENSE-REVIEW.md": "1e60c9318753d56b863e20ec92267e19202efd3b7f9c0a547006c0ce6d206819",
+    "README.md": "47b24a0999f820a6cebe7403aa089ed70224784fa76b8e9a753b9246f007095b",
+    "cifg_data.py": "097b1f627bc42f2204872ef8f73d43134461199378d2d5f1737a0de9baf3e27c",
+    "cifg_torch.py": "0b453d8cc96b41a8180a8ed7f554a79643a3fe028fe038844c3f25db92f256f4",
+    "config.completed.json": "b49be8c65f40778b760876e20fb88ccedb25e21d9a63ac81eb7f98c290e4391d",
+    "config.input.json": "dc60815a084ac448968a6fd32163a999b1f34482c37d71b98ec1269edfdd631f",
+    "reference_recipe.json": "4dfe4bd65375779db035504013e47691c94f3f4c5242f6a8d35f7f8c67e7d485",
+    "required_inputs.json": "554087dcfa6298a55f1106ab210e993c7af2d793dc6a02050e6ee3285b9c1f9d",
+    "requirements-reference.txt": "28d406296b0efab9c2849bb0318e6b118b9efc7519b6f96ba0781b6390cb7119",
+    "source_provenance.json": "eca44ea6357fe45183569247a0301a6b31e8098ba6b2d16faaba81e90b193faa",
+    "source_tests.py": "05e71eca54de9f09c6df299b2016a9575f67069b5f3b1f82390d53203962924b",
+    "train_cuda.py": "5d04c3489ee2423cb5d14d76733c03183fc5422e59d42afd1c9ec8b2dc2fa1e6"
+  },
+  "format": "localtype-x8-training-source-v1",
+  "input_sha256": {
+    "bundle": {
+      "cifg_data.py": "7ec6f3229fed86a93e3de412050114d18f21a2ec7a515fdb7e45b24810db76fd",
+      "cifg_torch.py": "0b453d8cc96b41a8180a8ed7f554a79643a3fe028fe038844c3f25db92f256f4",
+      "data/config.json": "cfef2f9e78582b347f9ec91ef50f1090efa50a67b09cd07afe3b6000c520d346",
+      "manifest.json": "affcab9a39ee426742476d74684f864835f52beea4df13b71b37e654220d9a2b",
+      "train_cuda.py": "5d04c3489ee2423cb5d14d76733c03183fc5422e59d42afd1c9ec8b2dc2fa1e6"
+    },
+    "run_metadata": {
+      "checksums.json": "9e045a2c2dbf78b846682f71f066a172e2e8fcb4a809e0affcfee5c69dfdd8aa",
+      "config.json": "e22a61dbfc020cb3e0be88e34efe0c2fbd289869701d74da047e635c73627d25",
+      "download-receipt.json": "afea9b15a9593e0e1184184197edb7befc7c00927fd912fadcc46b54bc3e585c",
+      "metrics.json": "9791c1a4f4f5a2d26715220cbdd1a154964ee49e5b8e1cee701a87a74c478f13",
+      "status.json": "79f6531165e1f297e026b16b15f6e38fb8565a8e12b32c05f0e835ae0e012014"
+    },
+    "source_tests.py": "05e71eca54de9f09c6df299b2016a9575f67069b5f3b1f82390d53203962924b"
+  },
+  "license_status": "SOURCE REVIEW DRAFT; grant awaiting Luke approval",
+  "source_sha256": "dab3af64ee34a2d3b2e9f7a52270352e747f7245ba20ff1771a6a82866f51600",
+  "tree_sha256": "2b2d9daed05fa8b4cf6739feff5d3c2dcdbaea87909ba8949a9b286b70fb038a"
+}

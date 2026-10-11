@@ -1,0 +1,49 @@
+{
+  "corpus": "corpus-v3",
+  "cover": {
+    "min_count": 5,
+    "path": "app/src/main/assets/words_en.txt",
+    "share": 0.5
+  },
+  "epochs": 3,
+  "eval_every": 1000,
+  "evidence_basis": "existing source documentation; no new download verification",
+  "max_steps": 96423,
+  "model_sha256": "12f1a35b4d0db543620c65976f777af897eacc680df8d88107c4f542a7a60e9e",
+  "oversample": {
+    "nus": 4,
+    "oasst2": 4,
+    "soda": 1,
+    "taskmaster": 4,
+    "taskmaster3": 1
+  },
+  "run": "cifg-v3-3ep-r2",
+  "selection": "human-macro development perplexity",
+  "shape": {
+    "embed_dim": 96,
+    "hidden": 670,
+    "params": 2025114,
+    "vocab_size": 16384
+  },
+  "status": "recorded completed reference, not reverified by source preparation",
+  "training": {
+    "batch_size": 256,
+    "clip": 1.0,
+    "lr": 0.002,
+    "max_len": 64,
+    "max_minutes": null,
+    "min_lr_ratio": 0.1,
+    "seed": 20260925,
+    "warmup": 200,
+    "weight_decay": 0.01
+  },
+  "vocabulary": "vocab-v3",
+  "vocabulary_weights": {
+    "nus": 0.125,
+    "oasst2": 0.125,
+    "soda": 0.5,
+    "taskmaster": 0.125,
+    "taskmaster3": 0.125
+  },
+  "weights_included": false
+}
