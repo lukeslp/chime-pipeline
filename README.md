@@ -4,6 +4,16 @@ The training pipeline behind [Chime-SMS-2M](https://huggingface.co/lukeslp/chime
 2 MB next-word and completion model that ranks the suggestion strip in
 [LocalType](https://dr.eamer.dev/downloads/apps/localtype/), my Android keyboard. By Luke Steuber.
 
+**November 2026: Chime 2.** LocalType has bundled Chime 2 since 0.5.58. Its weights and card are
+at [lukeslp/chime](https://huggingface.co/lukeslp/chime) (tag `v2.0`), which lists every version.
+Chime 2 has the same shape, vocabulary and tokenizer as the model described here. It trained on
+this pipeline's corpus plus 1,340,659 English sentences from Tatoeba (CC BY 2.0 FR) and 1,000,000
+sentences from C4 web text (ODC-BY 1.0, with the Common Crawl terms of use). A filter built from my
+own sent text messages chose those C4 sentences: the messages only ranked public sentences, and
+none of their words are in the training text. The Tatoeba and C4 steps are not in this repository
+yet, and because the messages stay private, the C4 choice can't be repeated exactly. The rest of
+this README describes the October model, Chime-SMS-2M (Chime 1.1).
+
 It goes from five licence-checked public text sources to an int8 model file:
 
 1. `model/corpus.py` downloads pinned upstream datasets, filters, deduplicates and splits them
